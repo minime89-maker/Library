@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+
+}
+
+body {
+    width: 100%;
+    background: #f7f7e8;
+}
+
+header{
+    background: rgb(85,113,116);
+    background: linear-gradient(32deg, rgba(85,113,116,1) 0%, rgba(199,207,183,1) 100%);    
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#newBook{
+    background-color: #557174;
+    outline: none;
+    border: none;
+    font-size: 40px;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+
+.books-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.books{
+    margin: 20px 20px 20px 10px;
+    width: 370px;
+    background: rgb(85,113,116);
+    background: linear-gradient(32deg, rgba(85,113,116,1) 0%, rgba(199,207,183,1) 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info{
+    margin: 20px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn button{
+    background-color: #557174;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.read{
+    margin: 20px 0;
+}
+
+.remove{
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.author{
+    font-weight: 300;
+}
+
+.pages{
+    font-weight: 300;
+}
+
+
+/* FORM */
+#form-container{
+    margin: 20px auto;
+    width: 350px;
+    padding: 20px 0;
+    border-radius: 10px;
+    background: rgb(85,113,116);
+    background: linear-gradient(32deg, rgba(85,113,116,1) 0%, rgba(199,207,183,1) 100%);
+    color: #fff;
+    display: none;
+}
+
+#add-book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label{
+    font-size: 24px;
+    padding-bottom: 4px;
+    margin-top: 26px;
+}
+
+input{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 6px 10px;
+    outline: none;
+}
+
+ #submit {
+    margin-top: 40px;
+    padding: 14px 20px;
+    background-color: #557174;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    bottom: 0;
+}

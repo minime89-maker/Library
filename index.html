@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+ 
+<header>
+    <h1><a href="index.html">Your<br>Bookshelf</a></h1>
+    <button id="newBook">+</button>
+</header>
+
+<main>
+    <div class="books-container">
+       <!--  <div class="books">
+           
+                <div class="info">
+                    <p class="title"><strong>Title:</strong> To Kill a Monckingbird</p>
+                    <p class="author"><strong>Author:</strong> Harper Lee</p>
+                    <p class="pages"><strong>Pages:</strong> 109</p>
+                </div>
+                <div class="btn">
+                    <button class="read">Read</button>
+                    <button class="remove">Remove</button>
+                </div>
+           
+        </div> -->
+    </div> 
+
+    <section>
+        <div id="form-container">
+            <form id='add-book'>
+                <label for="title">Title: </label>
+                <input type="text" name="title" id="title" placeholder="To Kill a Monckingbird" required>
+                <label for="author">Author: </label>
+                <input type="text" name="author" id="author" placeholder="Harper Lee" required>
+                <label for="pages">Pages: </label>
+                <input type="number" name="pages" id="pages" min="1" placeholder="109" required>
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer>&copy minja</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
